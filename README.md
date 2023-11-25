@@ -1,23 +1,47 @@
-# Getting Started with Create React App
+
+### Project Name: Countries By Currency
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project Name: Countries By Currency
-
-Overview
+## Overview
 The Countries By Currency project is a React application that allows users to search for countries based on a specific currency code. It fetches data from the REST Countries API to display a list of countries that use the entered currency along with their respective flags.
 
-## Available Scripts
+## Features
+Search by Currency Code: Users can enter a currency code (e.g., USD, EUR) to find countries that use that currency.
+Display Country Flags: The app displays flags of the countries associated with the entered currency.
+Flex Box Layout: Countries and their flags are displayed in flex boxes, adapting to the container width.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm start`
+React: Built using React library for frontend development.
+JavaScript (ES6+): Used modern JavaScript for app logic.
+REST Countries API: Used to fetch country data based on currency codes.
+Flag CDN: Fetching flag images based on country codes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Code Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project structure is organized into components:
+
+## CountriesByCurrency Component:
+
+Handles the main functionality of fetching countries by currency, displaying them, and showing associated flags.
+Loader Component: Manages the loading state and displays a loading indicator while fetching data.
+
+
+### Installation
+# To run the application locally:
+
+Clone the repository: git clone <repository-url>
+Navigate to the project directory: cd countries-by-currency
+Install dependencies: npm install
+Start the development server: npm start
+Access the app in your browser at http://localhost:3000
+
+## Usage
+
+Enter a currency code in the input field.
+Click on the "Search" button to find countries associated with that currency.
+View the list of countries and their flags displayed as flex boxes.
 
 ### `npm test`
 
@@ -54,17 +78,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
