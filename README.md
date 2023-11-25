@@ -1,7 +1,9 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Project Name: Countries By Currency
+Overview
+The Countries By Currency project is a React application that allows users to search for countries based on a specific currency code. It fetches data from the REST Countries API to display a list of countries that use the entered currency along with their respective flags.
 ## Available Scripts
 
 In the project directory, you can run:
